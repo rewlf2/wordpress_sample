@@ -1,0 +1,99 @@
+	div.wa-tree {   }
+		div.wa-tree div.tree {  
+		
+		position:absolute;
+			width: 1px;
+			height: 35px;
+			background-color: #F1F1F1;
+ }
+	div.wa-tree table { border:none; margin-left:0px; 
+	border-left: 1px dotted #c0c0c0;
+
+	}
+
+	div.wa-all table { border:none; margin-left:0px; }	
+	div.wa-tree th {  
+		padding:3px;
+		background-color:#cccccc;	
+	}
+	
+	
+
+		div.wa-tree tr:hover {  
+
+		background-color:#dddddd;	
+	}
+	div.wa-tree td {  
+		min-width:80px;
+		padding:3px;
+	}	
+		
+
+	
+div.wa-tree td p.level0	span.linie {
+display:inline-block;
+border-top: 1px dotted #c0c0c0;
+margin-left:-5px;
+margin-right:5px;
+height: 3px;
+width: 10px;
+}
+
+div.wa-tree td p.level1	span.linie,
+div.wa-tree td p.level2	span.linie,
+div.wa-tree td p.level3	span.linie,
+div.wa-tree td p.level4	span.linie {
+display:inline-block;
+border-bottom: 1px dotted #c0c0c0;
+border-left: 1px dotted #c0c0c0;
+margin-top:-15px;
+margin-left:-5px;
+margin-right:10px;
+height: 15px;
+width: 10px;
+}
+
+ 		
+	div.wa-tree th p, 
+	div.wa-tree td p {  
+		padding: 0px;
+		margin:0px;	
+		line-height: 100%;
+}
+	    
+	div.wa-tree td p.level0 {  
+		padding-left: 0px;
+	}
+	    
+	div.wa-tree td p.level1 { 
+		padding-left: 15px;
+	}
+
+	div.wa-tree td p.level2 { 
+		padding-left: 30px;
+	}
+	
+		div.wa-tree td p.level3 { 
+		padding-left: 45px;
+	}
+	
+	div.wa-tree td p.level4 { 
+		padding-left: 60px;
+	}
+	
+
+			
+	div.wa-tree td p.weiterleitung { color: #1065e4; }
+	
+	div.wa-tree td a.publish { color: green; }
+	div.wa-tree td a.draft { color:#303030; }
+	div.wa-tree td a.private { color:#FF0000; }	
+	div.wa-tree td a.password { color: #FF0000; }	
+		
+	div.wa-tree td a:hover { color:#1065e4; }
+	
+	div.wa-tree .icon { margin-right:5px !important;  }
+	
+	
+
+	

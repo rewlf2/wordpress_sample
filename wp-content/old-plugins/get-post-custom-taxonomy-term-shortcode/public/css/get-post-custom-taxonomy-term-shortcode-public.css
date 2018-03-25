@@ -1,0 +1,14 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.shortcode-main{max-width:1120px;margin:0 auto;clear: both;}
+.shortcode-main .content-block-main{display: table-cell;vertical-align: top;}
+.shortcode-main .row{border:3px solid #d0d0d0;border-radius:3px;padding:15px;color:#191919;margin-bottom:20px;}
+.shortcode-main .row .site-thumbnail{margin-right:25px;width:125px;display:table-cell;}
+.shortcode-main .row .site-thumbnail img{max-width:100%;}
+.shortcode-main .row .site-title{font-size:24px;margin-bottom:10px;}
+.shortcode-main .row .site-content{font-size:12px;}
+.shortcode-main .row .site-title{font-size: 22px;margin-bottom:10px;}
+.shortcode-main.first-view .row .site-title {display:table-cell;width: 35%;}
+.shortcode-main.first-view .row .site-content {display:table-cell;}

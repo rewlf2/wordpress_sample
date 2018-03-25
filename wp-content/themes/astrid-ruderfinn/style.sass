@@ -1,0 +1,657 @@
+/*
+ Theme Name:   Astrid Ruderfinn
+ Theme URI:    http://example.com/astrid-ruderfinn/
+ Description:  Astrid Ruderfinn Theme
+ Author:       Eric Suen
+ Author URI:   http://example.com
+ Template:     astrid
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  astrid-ruderfinn */
+
+
+
+@import url("others.css")
+
+
+$normalColor: #333
+
+$lightgrey: #BDBBBB
+$lightgrey2: #E2E2E2
+$lightgrey3: #ccc
+
+$darkgrey: #333
+$darkgrey2: #777
+
+$blue: #3f76cc
+$yellow: #FFCA28
+$turquoise: #01BCD4
+$limegreen: #C3DA49
+
+$green: #00B047
+$red: #F44336
+$orange: #F0AB00
+$lemon: #FEDA49
+$lightgreen: #79BC43
+
+
+
+$bold: 'Conv_segoeuib', sans-serif
+$light: 'Conv_segoeuil', sans-serif
+$normal: 'Conv_segoeui', sans-serif
+
+
+
+.green
+  color: $green
+  font-family: $bold
+
+
+
+.bgc-light
+  background-color: $lightgrey
+
+
+body
+  margin: 0
+  color: $normalColor
+
+img.icon
+  width: auto
+
+p
+  margin: 0
+  line-height: 1.5em
+  font-size: larger
+
+.clear
+  clear: both
+
+.leading
+  padding-left: 20px
+
+.float
+  float: right
+
+.compact
+  margin: 10px
+
+.headline
+  //font-size: 3vw
+  //padding: 8vw
+  font-size: 40px
+  padding: 100px 60px
+  font-family: $light
+
+a:focus
+  outline: -webkit-focus-ring-color auto 0
+  
+.div50
+  display: inline-block
+  width: 49%
+
+.cozy
+  padding: 10px 50px
+
+.cozy-alt
+  padding: 0 50px
+
+.grid
+  margin: 0 60px
+
+.comfortable
+  padding: 10px
+
+.compact
+  margin: 2px
+
+.box
+  margin: 10px
+
+.flex-container
+  display: flex
+  flex-direction: column
+
+.flex-item
+  flex: 1 1
+
+.flex-1
+  flex: 1 1
+.flex-2
+  flex: 2 2
+
+.panel
+  border: 0
+  border-radius: 0
+
+.lightfont, .light
+  font-family: $light
+
+
+
+.widget li
+  padding-top: 0
+  padding-bottom: 0
+
+
+h2.light
+  font-size: 28px
+  margin-bottom: 0
+
+.detail
+  a
+    color: $normalColor
+
+
+#core, .expertise-grid, #career-3
+  img
+    width: 100%
+
+.subtitle
+  font-size: 20px
+  text-align: center
+
+.description
+  .title
+    font-size: xx-large
+    color: $orange
+    font-family: $light
+    margin: 20px 0
+    line-height: 1.2em
+  .detail
+    line-height: 2em
+    font-size: medium
+  .footer
+    margin: 10px 0 30px 0
+
+.border-bottom
+  .panel-grid-cell
+    border-bottom: 1px solid black
+
+
+.extra-margin
+  .panel-grid-cell
+    margin: 20px
+
+
+
+.so-widget-sow-image
+  .widget-title
+    display: none
+
+.page-headline
+  h1
+    text-transform: uppercase
+    font-family: $light
+  .sow-image-container
+    .so-widget-image
+      height: 8px
+      width: auto
+
+.description-sub, .description-sub-compact
+  //font-weight: bold
+  text-align: left
+  .title
+    font-size: x-large
+    color: $normalColor
+    //font-weight: bold
+    font-family: $bold
+    margin: 5px 0 15px 0
+  .detail
+    line-height: 1.5em
+    font-size: large
+
+.description-sub
+  padding: 20px
+
+.panel-grid-cell
+  flex: 1 1
+  margin: 10px
+  position: relative
+
+#main
+  .entry-content
+    .panel-grid
+      margin: 0
+      .fullspan
+        .panel-grid-cell
+          margin: 0
+      .alt
+        .panel-grid-cell
+          padding: 20px
+      .grid
+        .panel-grid-cell
+          margin: 3px
+      .panel-grid-cell
+        padding: 0
+
+
+.so-panel
+  margin: 0 !important
+
+
+.overlay
+  //font-weight: bold
+  font-family: $light
+  font-size: x-large
+  color: white
+  position: absolute
+  margin: 10px
+  left: 0
+  bottom: 0
+
+
+.main-navigation li
+  padding: 10px
+
+
+//landing page
+//what's new
+
+#slider, #slider-mobile
+  .panel-grid-cell
+    position: relative
+    .overlay
+      margin: 20vw 3vw
+      font-size: 5vw
+      line-height: 1.3em
+      text-align: center
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      z-index: 100
+      color: #8e8e8e
+
+
+
+#whatsnew-sub
+  .panel-grid-cell
+    background-color: $lightgrey2
+    .description
+      font-size: small
+      margin: 20px
+      .title
+        font-size: large
+        //font-weight: bold
+        font-family: $bold
+        color: $normalColor
+        margin: 5px 0
+      .detail
+        line-height: 1.5em
+
+//client
+#client-comment
+  .panel-grid-cell
+    padding: 20px
+    &:first-child
+      background-color: $orange
+    &:last-child
+      background-color: $lightgrey
+    .so-panel:not(:first-child)
+      display: inline-block
+      width: 49%
+      // insane here: to position the img correctly alone with "read more"
+      .so-widget-sow-image
+        position: relative
+        .sow-image-container
+          position: relative
+          top: 15px
+#client-logo
+  img
+    width: 100%
+
+//career
+#career-1
+  .panel-grid-cell
+    background-color: $lightgrey
+
+#career-2
+  .panel-grid-cell
+    &:first-child
+      background-color: $lightgrey
+    &:last-child
+      background-color: $orange
+
+#career-3
+  .panel-grid-cell
+    &:last-child
+      background-color: $lightgreen
+
+
+
+
+// contact page
+
+.panel-grid-cell
+  .panel
+    font-weight: 300
+
+
+.contact
+  hr
+    border: 1px solid #999
+    margin: 5px 0
+    width: 120px
+
+  .panel-grid-cell
+    font-family: $light
+    font-weight: bold
+    .panel
+      background-color: $green
+      color: white
+    .description
+      .title
+        margin: 10px 0
+        font-size: 16px
+        font-family: $bold
+        color: $normalColor
+
+      .detail
+        font-size: 16px
+      .alt
+        font-size: 20px
+        color: $orange
+        font-family: $light
+
+
+
+// leadership page
+.leadership
+  .panel-grid-cell
+    .panel
+      background-color: $lemon
+    .description
+      font-size: small
+      padding: 20px 0
+      .title
+        font-family: $bold
+        font-size: medium
+        color: $normalColor
+
+
+// career page
+#career-page-row-2
+  .panel-grid-cell:last-child
+    background-color: $lightgrey3
+
+#career-page-row-3
+  .panel-grid-cell:first-child
+    background-color: $lightgrey3
+
+#network-page
+  .description
+    margin-top: 40px
+  .fa-circle
+    color: darkred
+  #triangle
+    position: relative
+    top: -3px
+
+
+
+// our partnership page
+#our-partnership
+  h3
+    color: $orange
+    font-size: larger
+    margin-bottom: 5px
+
+// awards page
+#awards
+  h4
+    color: $orange
+    font-size: 18px
+
+
+
+// work page
+.cat-post-widget
+  ul
+    padding: 0
+    display: flex
+    flex-flow: row wrap
+    li.cat-post-item
+      flex: 1 1 200px
+      border-bottom: none
+      margin: 10px
+      padding: 0
+      background-color: $lightgrey2
+      .cat-post-thumbnail
+        img
+          margin: 0
+      .cat-post-title
+        padding: 10px
+        color: $normalColor
+    li.cat-post-item-empty
+      background-color: white
+
+
+// work post
+
+
+.widget_breadcrumb_navxt
+  margin: 10px
+
+.widget_nav_menu
+  .widget-title
+    color: $orange
+  ul
+    padding: 0
+    li
+      list-style: none
+      a
+        font-size: 16px
+        color: $normalColor
+
+
+.post
+  h1, h2, h3, h4, h5
+    font-family: $light
+  .entry-category
+    font-size: 25px
+  .entry-title
+    font-size: 60px
+    text-transform: capitalize
+
+
+.category-health-wellness, .category-financial-communication, .category-reputation-management
+  .entry-header
+    background-color: $blue
+
+.category-corporate-public-trust, .category-luxury
+  .entry-header
+    background-color: $yellow
+
+.category-global-connectivity, .category-csr, .category-public-affair
+  .entry-header
+    background-color: $turquoise
+
+.category-life-style, .category-engagement-intergration, .category-travel-tourism
+  .entry-header
+    background-color: $limegreen
+
+.category-activation, .category-automative
+  .entry-header
+    background-color: $green
+
+.category-art-culture, .category-consumer-products
+  .entry-header
+    background-color: $red
+
+.category-insight, .category-training
+  .entry-header
+    background-color: $orange
+
+.category-digital, .category-start-ups
+  .entry-header
+    background-color: $lemon
+
+.category-technology, .category-uncategorized
+  .entry-header
+    background-color: $lightgreen
+
+
+// top navigation
+#top-navigation-container
+  background-color: $darkgrey
+  padding: 10px 40px
+  #top-navigation
+    float: right
+    color: white
+    font-weight: bold
+    i
+      margin: 5px
+      font-size: large
+    span
+      a
+        color: white
+        &:hover
+          color: white
+
+#main-navigation
+  margin: 20px
+
+
+
+
+// activation page
+#activation-testimonies
+  .panel-grid-cell
+    margin: 0
+    &:first-child
+      background-color: $orange
+      #test-1-main
+        padding: 40px 30px 0 30px
+      #test-1-left
+        padding: 0 30px 40px
+      .so-panel:not(:first-child)
+        display: inline-block
+        width: 49%
+      .widget_sow-image
+        padding: 10px 30px
+        img
+          width: 100px
+          float: right
+    &:last-child
+      background-color: $darkgrey2
+      p
+        color: white
+      .widget_sow-image
+        padding: 10px 30px
+        img
+          width: 150px
+          float: right
+    .description-sub
+      padding: 40px 30px
+      .footer
+        font-family: $bold
+
+
+
+
+.footer-wrapper
+  .container
+    background-color: $lightgrey3
+    padding: 0
+  #footer
+    img
+      width: 70%
+    img.favicon
+      width: 100px
+    p
+      font-size: small
+    .title
+      //font-size: medium
+      font-weight: bold
+    .section
+      padding: 20px
+    .footer-sub
+      height: 50%
+    #footer4
+      //background-color: lightpink
+      .footer4-sub
+        height: 50%
+      #footer4-lower
+        padding: 20px
+        #footer4-lower-wrapper
+          position: relative
+          height: 100%
+          p
+            position: absolute
+            bottom: 0
+            right: 0
+
+
+
+@media screen and (max-width: 767px)
+  #footer
+    .flex-container
+      text-align: center
+  #main
+    .entry-content
+      .panel-grid
+        .panel-grid-cell
+          margin: 10px
+
+  .cozy
+    padding: 10px 10px
+  .cozy-alt
+    padding: 0 10px
+  .grid
+    margin: 0 10px
+
+  #footer4-lower
+    padding: 20px 50px
+
+@media screen and (max-width: 780px)
+  #main
+    .entry-content
+      .panel-grid
+        .panel-grid-cell
+          margin: 10px
+        .grid
+          .panel-grid-cell
+            margin: 3px
+
+@media screen and (min-width: 768px)
+  .flex-container
+    flex-flow: row wrap
+
+  #leadership
+    .overlay
+      font-size: medium
+  #core
+    .overlay
+      font-size: smaller
+
+@media screen and (min-width: 992px)
+  #leadership
+    .overlay
+      font-size: larger
+  #core
+    .overlay
+      font-size: small
+  #slider
+    .panel-grid-cell
+      .overlay
+        margin: 15vw
+        font-size: 3vw
+
+
+@media screen and (min-width: 1200px)
+  #leadership
+    .overlay
+      font-size: large
+  #core
+    .overlay
+      font-size: medium
+  #slider
+    .panel-grid-cell
+      position: relative
+      .overlay
+        margin: 4em
+        font-size: 3em
+

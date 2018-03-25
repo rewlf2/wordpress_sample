@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hover-image\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-24 04:31+0100\n"
+"PO-Revision-Date: 2012-01-24 04:31+0100\n"
+"Last-Translator: Julian Weinert // cs&m <j.weinert@cs-und-m.de>\n"
+"Language-Team: Julian Weinert // cs&m <j.weinert@cs-und-m.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../hover-image.php:108
+msgid "Hover Image Einstellungen"
+msgstr "Hover Image settings"
+
+#: ../hover-image.php:131
+msgid "Warnung!<br>Die Dauer sollte nicht 0s betragen."
+msgstr "Waring!<br>The duration should not be 0s."
+
+#: ../hover-image.php:148
+msgid "Einstellungen gesichert."
+msgstr "Settings saved."
+
+#: ../hover-image.php:154
+msgid "Fehler beim sichern."
+msgstr "Failed to save settings."
+
+#: ../hover-image.php:188
+msgid "Einstellungen für den Übergang"
+msgstr "Settings for the transition"
+
+#: ../hover-image.php:195
+msgid "Dauer:"
+msgstr "Duration:"
+
+#: ../hover-image.php:201
+msgid "Tip: Nutzen Sie einen anführenden Punkt, um weniger als eine Sekunde zu erreichen: .4"
+msgstr "Tip: Use leading dot to set milliseconds: .4"
+
+#: ../hover-image.php:206
+msgid "Verzögerung:"
+msgstr "Delay:"
+
+#: ../hover-image.php:212
+msgid "Tip: Nutzen Sie einen anführenden Punkt, um weniger, als eine Sekunde zu erreichen: .4"
+msgstr "Tip: Use leading dot to set milliseconds: .4"
+
+#: ../hover-image.php:217
+msgid "Kurve:"
+msgstr "Curve:"
+
+#: ../hover-image.php:221
+msgid "Linear"
+msgstr "Linear"
+
+#: ../hover-image.php:222
+msgid "Mittel > Schnell > Langsam"
+msgstr "Middle > Fast > Slow"
+
+#: ../hover-image.php:223
+msgid "Langsam > Schnell"
+msgstr "Slow > Fast"
+
+#: ../hover-image.php:224
+msgid "Schnell > Langsam"
+msgstr "Fast > Slow"
+
+#: ../hover-image.php:225
+msgid "Langsam > Schnell > Langsam"
+msgstr "Slow > Fast > Slow"
+
+#: ../hover-image.php:233
+msgid "Sichern"
+msgstr "Save"
+

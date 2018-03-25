@@ -1,0 +1,57 @@
+body{
+  color: #333;
+}
+
+
+/* allow the header scroll instead of stick on top */
+.site-header {
+  position: relative;
+  padding: 0;
+}
+
+.site-header, .site-header.header-scrolled {
+  background-color: white;
+}
+
+.main-navigation a, .btn-menu {
+  color: #666;
+}
+
+/* disable bootstrap container and restyle the container */
+.site-content {
+  margin: 0;
+
+}
+
+.header-clone{
+  display: none;
+}
+
+article{
+  display: none;
+}
+
+.hentry{
+  border: none;
+  padding: 0;
+}
+
+.site-content > .container {
+  border: none;
+}
+
+.content-area {
+  margin-left: 0;
+  width: 100%;
+}
+
+@media (min-width: 768px){
+  .container {
+    width: 100%;
+  }
+}
+
+/* hide the page/post title */
+.entry-title{
+  display: none;
+}

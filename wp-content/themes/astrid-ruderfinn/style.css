@@ -1,0 +1,496 @@
+/* Theme Name:   Astrid Ruderfinn
+ * Theme URI:    http://example.com/astrid-ruderfinn/
+ * Description:  Astrid Ruderfinn Theme
+ * Author:       Eric Suen
+ * Author URI:   http://example.com
+ * Template:     astrid
+ * Version:      1.0.0
+ * License:      GNU General Public License v2 or later
+ * License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ * Text Domain:  astrid-ruderfinn */
+@import url("others.css");
+.green {
+  color: #00B047;
+  font-family: "Conv_segoeuib", sans-serif; }
+
+.bgc-light {
+  background-color: #BDBBBB; }
+
+body {
+  margin: 0;
+  color: #333; }
+
+img.icon {
+  width: auto; }
+
+p {
+  margin: 0;
+  line-height: 1.5em;
+  font-size: larger; }
+
+.clear {
+  clear: both; }
+
+.leading {
+  padding-left: 20px; }
+
+.float {
+  float: right; }
+
+.compact {
+  margin: 10px; }
+
+.headline {
+  font-size: 40px;
+  padding: 100px 60px;
+  font-family: "Conv_segoeuil", sans-serif; }
+
+a:focus {
+  outline: -webkit-focus-ring-color auto 0; }
+
+.div50 {
+  display: inline-block;
+  width: 49%; }
+
+.cozy {
+  padding: 10px 50px; }
+
+.cozy-alt {
+  padding: 0 50px; }
+
+.grid {
+  margin: 0 60px; }
+
+.comfortable {
+  padding: 10px; }
+
+.compact {
+  margin: 2px; }
+
+.box {
+  margin: 10px; }
+
+.flex-container {
+  display: flex;
+  flex-direction: column; }
+
+.flex-item {
+  flex: 1 1; }
+
+.flex-1 {
+  flex: 1 1; }
+
+.flex-2 {
+  flex: 2 2; }
+
+.panel {
+  border: 0;
+  border-radius: 0; }
+
+.lightfont, .light {
+  font-family: "Conv_segoeuil", sans-serif; }
+
+.widget li {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+h2.light {
+  font-size: 28px;
+  margin-bottom: 0; }
+
+.detail a {
+  color: #333; }
+
+#core img, .expertise-grid img, #career-3 img {
+  width: 100%; }
+
+.subtitle {
+  font-size: 20px;
+  text-align: center; }
+
+.description .title {
+  font-size: xx-large;
+  color: #F0AB00;
+  font-family: "Conv_segoeuil", sans-serif;
+  margin: 20px 0;
+  line-height: 1.2em; }
+.description .detail {
+  line-height: 2em;
+  font-size: medium; }
+.description .footer {
+  margin: 10px 0 30px 0; }
+
+.border-bottom .panel-grid-cell {
+  border-bottom: 1px solid black; }
+
+.extra-margin .panel-grid-cell {
+  margin: 20px; }
+
+.so-widget-sow-image .widget-title {
+  display: none; }
+
+.page-headline h1 {
+  text-transform: uppercase;
+  font-family: "Conv_segoeuil", sans-serif; }
+.page-headline .sow-image-container .so-widget-image {
+  height: 8px;
+  width: auto; }
+
+.description-sub, .description-sub-compact {
+  text-align: left; }
+  .description-sub .title, .description-sub-compact .title {
+    font-size: x-large;
+    color: #333;
+    font-family: "Conv_segoeuib", sans-serif;
+    margin: 5px 0 15px 0; }
+  .description-sub .detail, .description-sub-compact .detail {
+    line-height: 1.5em;
+    font-size: large; }
+
+.description-sub {
+  padding: 20px; }
+
+.panel-grid-cell {
+  flex: 1 1;
+  margin: 10px;
+  position: relative; }
+
+#main .entry-content .panel-grid {
+  margin: 0; }
+  #main .entry-content .panel-grid .fullspan .panel-grid-cell {
+    margin: 0; }
+  #main .entry-content .panel-grid .alt .panel-grid-cell {
+    padding: 20px; }
+  #main .entry-content .panel-grid .grid .panel-grid-cell {
+    margin: 3px; }
+  #main .entry-content .panel-grid .panel-grid-cell {
+    padding: 0; }
+
+.so-panel {
+  margin: 0 !important; }
+
+.overlay {
+  font-family: "Conv_segoeuil", sans-serif;
+  font-size: x-large;
+  color: white;
+  position: absolute;
+  margin: 10px;
+  left: 0;
+  bottom: 0; }
+
+.main-navigation li {
+  padding: 10px; }
+
+#slider .panel-grid-cell, #slider-mobile .panel-grid-cell {
+  position: relative; }
+  #slider .panel-grid-cell .overlay, #slider-mobile .panel-grid-cell .overlay {
+    margin: 20vw 3vw;
+    font-size: 5vw;
+    line-height: 1.3em;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    color: #8e8e8e; }
+
+#whatsnew-sub .panel-grid-cell {
+  background-color: #E2E2E2; }
+  #whatsnew-sub .panel-grid-cell .description {
+    font-size: small;
+    margin: 20px; }
+    #whatsnew-sub .panel-grid-cell .description .title {
+      font-size: large;
+      font-family: "Conv_segoeuib", sans-serif;
+      color: #333;
+      margin: 5px 0; }
+    #whatsnew-sub .panel-grid-cell .description .detail {
+      line-height: 1.5em; }
+
+#client-comment .panel-grid-cell {
+  padding: 20px; }
+  #client-comment .panel-grid-cell:first-child {
+    background-color: #F0AB00; }
+  #client-comment .panel-grid-cell:last-child {
+    background-color: #BDBBBB; }
+  #client-comment .panel-grid-cell .so-panel:not(:first-child) {
+    display: inline-block;
+    width: 49%; }
+    #client-comment .panel-grid-cell .so-panel:not(:first-child) .so-widget-sow-image {
+      position: relative; }
+      #client-comment .panel-grid-cell .so-panel:not(:first-child) .so-widget-sow-image .sow-image-container {
+        position: relative;
+        top: 15px; }
+
+#client-logo img {
+  width: 100%; }
+
+#career-1 .panel-grid-cell {
+  background-color: #BDBBBB; }
+
+#career-2 .panel-grid-cell:first-child {
+  background-color: #BDBBBB; }
+#career-2 .panel-grid-cell:last-child {
+  background-color: #F0AB00; }
+
+#career-3 .panel-grid-cell:last-child {
+  background-color: #79BC43; }
+
+.panel-grid-cell .panel {
+  font-weight: 300; }
+
+.contact hr {
+  border: 1px solid #999;
+  margin: 5px 0;
+  width: 120px; }
+.contact .panel-grid-cell {
+  font-family: "Conv_segoeuil", sans-serif;
+  font-weight: bold; }
+  .contact .panel-grid-cell .panel {
+    background-color: #00B047;
+    color: white; }
+  .contact .panel-grid-cell .description .title {
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: "Conv_segoeuib", sans-serif;
+    color: #333; }
+  .contact .panel-grid-cell .description .detail {
+    font-size: 16px; }
+  .contact .panel-grid-cell .description .alt {
+    font-size: 20px;
+    color: #F0AB00;
+    font-family: "Conv_segoeuil", sans-serif; }
+
+.leadership .panel-grid-cell .panel {
+  background-color: #FEDA49; }
+.leadership .panel-grid-cell .description {
+  font-size: small;
+  padding: 20px 0; }
+  .leadership .panel-grid-cell .description .title {
+    font-family: "Conv_segoeuib", sans-serif;
+    font-size: medium;
+    color: #333; }
+
+#career-page-row-2 .panel-grid-cell:last-child {
+  background-color: #ccc; }
+
+#career-page-row-3 .panel-grid-cell:first-child {
+  background-color: #ccc; }
+
+#network-page .description {
+  margin-top: 40px; }
+#network-page .fa-circle {
+  color: darkred; }
+#network-page #triangle {
+  position: relative;
+  top: -3px; }
+
+#our-partnership h3 {
+  color: #F0AB00;
+  font-size: larger;
+  margin-bottom: 5px; }
+
+#awards h4 {
+  color: #F0AB00;
+  font-size: 18px; }
+
+.cat-post-widget ul {
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap; }
+  .cat-post-widget ul li.cat-post-item {
+    flex: 1 1 200px;
+    border-bottom: none;
+    margin: 10px;
+    padding: 0;
+    background-color: #E2E2E2; }
+    .cat-post-widget ul li.cat-post-item .cat-post-thumbnail img {
+      margin: 0; }
+    .cat-post-widget ul li.cat-post-item .cat-post-title {
+      padding: 10px;
+      color: #333; }
+  .cat-post-widget ul li.cat-post-item-empty {
+    background-color: white; }
+
+.widget_breadcrumb_navxt {
+  margin: 10px; }
+
+.widget_nav_menu .widget-title {
+  color: #F0AB00; }
+.widget_nav_menu ul {
+  padding: 0; }
+  .widget_nav_menu ul li {
+    list-style: none; }
+    .widget_nav_menu ul li a {
+      font-size: 16px;
+      color: #333; }
+
+.post h1, .post h2, .post h3, .post h4, .post h5 {
+  font-family: "Conv_segoeuil", sans-serif; }
+.post .entry-category {
+  font-size: 25px; }
+.post .entry-title {
+  font-size: 60px;
+  text-transform: capitalize; }
+
+.category-health-wellness .entry-header, .category-financial-communication .entry-header, .category-reputation-management .entry-header {
+  background-color: #3f76cc; }
+
+.category-corporate-public-trust .entry-header, .category-luxury .entry-header {
+  background-color: #FFCA28; }
+
+.category-global-connectivity .entry-header, .category-csr .entry-header, .category-public-affair .entry-header {
+  background-color: #01BCD4; }
+
+.category-life-style .entry-header, .category-engagement-intergration .entry-header, .category-travel-tourism .entry-header {
+  background-color: #C3DA49; }
+
+.category-activation .entry-header, .category-automative .entry-header {
+  background-color: #00B047; }
+
+.category-art-culture .entry-header, .category-consumer-products .entry-header {
+  background-color: #F44336; }
+
+.category-insight .entry-header, .category-training .entry-header {
+  background-color: #F0AB00; }
+
+.category-digital .entry-header, .category-start-ups .entry-header {
+  background-color: #FEDA49; }
+
+.category-technology .entry-header, .category-uncategorized .entry-header {
+  background-color: #79BC43; }
+
+#top-navigation-container {
+  background-color: #333;
+  padding: 10px 40px; }
+  #top-navigation-container #top-navigation {
+    float: right;
+    color: white;
+    font-weight: bold; }
+    #top-navigation-container #top-navigation i {
+      margin: 5px;
+      font-size: large; }
+    #top-navigation-container #top-navigation span a {
+      color: white; }
+      #top-navigation-container #top-navigation span a:hover {
+        color: white; }
+
+#main-navigation {
+  margin: 20px; }
+
+#activation-testimonies .panel-grid-cell {
+  margin: 0; }
+  #activation-testimonies .panel-grid-cell:first-child {
+    background-color: #F0AB00; }
+    #activation-testimonies .panel-grid-cell:first-child #test-1-main {
+      padding: 40px 30px 0 30px; }
+    #activation-testimonies .panel-grid-cell:first-child #test-1-left {
+      padding: 0 30px 40px; }
+    #activation-testimonies .panel-grid-cell:first-child .so-panel:not(:first-child) {
+      display: inline-block;
+      width: 49%; }
+    #activation-testimonies .panel-grid-cell:first-child .widget_sow-image {
+      padding: 10px 30px; }
+      #activation-testimonies .panel-grid-cell:first-child .widget_sow-image img {
+        width: 100px;
+        float: right; }
+  #activation-testimonies .panel-grid-cell:last-child {
+    background-color: #777; }
+    #activation-testimonies .panel-grid-cell:last-child p {
+      color: white; }
+    #activation-testimonies .panel-grid-cell:last-child .widget_sow-image {
+      padding: 10px 30px; }
+      #activation-testimonies .panel-grid-cell:last-child .widget_sow-image img {
+        width: 150px;
+        float: right; }
+  #activation-testimonies .panel-grid-cell .description-sub {
+    padding: 40px 30px; }
+    #activation-testimonies .panel-grid-cell .description-sub .footer {
+      font-family: "Conv_segoeuib", sans-serif; }
+
+.footer-wrapper .container {
+  background-color: #ccc;
+  padding: 0; }
+.footer-wrapper #footer img {
+  width: 70%; }
+.footer-wrapper #footer img.favicon {
+  width: 100px; }
+.footer-wrapper #footer p {
+  font-size: small; }
+.footer-wrapper #footer .title {
+  font-weight: bold; }
+.footer-wrapper #footer .section {
+  padding: 20px; }
+.footer-wrapper #footer .footer-sub {
+  height: 50%; }
+.footer-wrapper #footer #footer4 .footer4-sub {
+  height: 50%; }
+.footer-wrapper #footer #footer4 #footer4-lower {
+  padding: 20px; }
+  .footer-wrapper #footer #footer4 #footer4-lower #footer4-lower-wrapper {
+    position: relative;
+    height: 100%; }
+    .footer-wrapper #footer #footer4 #footer4-lower #footer4-lower-wrapper p {
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+
+@media screen and (max-width: 767px) {
+  #footer .flex-container {
+    text-align: center; }
+
+  #main .entry-content .panel-grid .panel-grid-cell {
+    margin: 10px; }
+
+  .cozy {
+    padding: 10px 10px; }
+
+  .cozy-alt {
+    padding: 0 10px; }
+
+  .grid {
+    margin: 0 10px; }
+
+  #footer4-lower {
+    padding: 20px 50px; } }
+@media screen and (max-width: 780px) {
+  #main .entry-content .panel-grid .panel-grid-cell {
+    margin: 10px; }
+  #main .entry-content .panel-grid .grid .panel-grid-cell {
+    margin: 3px; } }
+@media screen and (min-width: 768px) {
+  .flex-container {
+    flex-flow: row wrap; }
+
+  #leadership .overlay {
+    font-size: medium; }
+
+  #core .overlay {
+    font-size: smaller; } }
+@media screen and (min-width: 992px) {
+  #leadership .overlay {
+    font-size: larger; }
+
+  #core .overlay {
+    font-size: small; }
+
+  #slider .panel-grid-cell .overlay {
+    margin: 15vw;
+    font-size: 3vw; } }
+@media screen and (min-width: 1200px) {
+  #leadership .overlay {
+    font-size: large; }
+
+  #core .overlay {
+    font-size: medium; }
+
+  #slider .panel-grid-cell {
+    position: relative; }
+    #slider .panel-grid-cell .overlay {
+      margin: 4em;
+      font-size: 3em; } }
+
+/*# sourceMappingURL=style.css.map */
+.menu-mainmenu-container{background:white;}

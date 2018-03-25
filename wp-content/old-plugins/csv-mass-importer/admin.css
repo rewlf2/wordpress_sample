@@ -1,0 +1,10 @@
+#cmi-actions-table th { text-transform: uppercase; }
+#cmi-actions-table th img { vertical-align: middle; }
+#cmi-actions-table label { font-weight: bold; }
+#cmi-actions-table .hidden { display: none; }
+#cmi-actions-table p { margin-top: 0; margin-bottom: 10px; }
+#cmi-preimport-form .username-source { display: inline-block; width: 200px; }
+#cmi-actions-table select { width: 240px; }
+#cmi-actions-table .method-info { width: 170px; }
+#cmi-getfields-wrapper { display: none; background-color: rgb(215,215,215); padding: 16px; }
+#cmi-getfields-wrapper .sel-all, #cmi-getfields-wrapper .des-all { text-decoration: underline; color: #00a0d2; cursor: pointer; }
